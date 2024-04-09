@@ -3,6 +3,11 @@ name = "keepachangelog"
 version = "0.1.0"
 edition = "2021"
 authors = ["Pedro Luz <pedromsluz@gmail.com>"]
+repository = "https://github.com/Narven/keepachangelog"
+license-file = "LICENSE.txt"
+description = "CLI / Crate API to manipulate CHANGELOG's by following keepachangelog.com guidelines, built with Rust."
+homepage = "https://github.com/Narven/keepachangelog"
+readme = "README.md"
 
 [dependencies]
 clap = { version = "4.5.3", features = ["derive", "cargo", "env"] }
