@@ -8,6 +8,10 @@ license-file = "LICENSE.txt"
 description = "CLI / Crate API to manipulate CHANGELOG's by following keepachangelog.com guidelines, built with Rust."
 homepage = "https://github.com/Narven/keepachangelog"
 readme = "README.md"
+exclude = [
+  ".github/*",
+]
+
 
 [dependencies]
 clap = { version = "4.5.3", features = ["derive", "cargo", "env"] }
