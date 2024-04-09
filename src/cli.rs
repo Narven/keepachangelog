@@ -41,7 +41,7 @@ enum Commands {
 
 #[derive(Parser, Debug)]
 #[command(
-    name = "keepchangelog",
+    name = "keepachangelog",
     author = "Pedro Luz <pedromsluz@gmail.com>",
     version,
     about = "This is a wrapper around keepachangelog.com to allow to make changes to the CHANGELOG.md on the fly.",
@@ -63,7 +63,7 @@ pub fn cli() {
         Commands::Remove => todo!(),
         Commands::Fix => todo!(),
         Commands::Security => todo!(),
-        Commands::Create { path } => match keepchangelog::create(path.as_deref()) {
+        Commands::Create { path } => match keepachangelog::create(path.as_deref()) {
             Ok(_) => {
                 println!("CHANGELOG.md created.");
                 ("".to_owned(), "".to_owned())

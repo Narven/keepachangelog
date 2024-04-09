@@ -1,5 +1,5 @@
 [package]
-name = "keepchangelog"
+name = "keepachangelog"
 version = "0.1.0"
 edition = "2021"
 authors = ["Pedro Luz <pedromsluz@gmail.com>"]
