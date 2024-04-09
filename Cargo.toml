@@ -1,0 +1,8 @@
+[package]
+name = "keepchangelog"
+version = "0.1.0"
+edition = "2021"
+authors = ["Pedro Luz <pedromsluz@gmail.com>"]
+
+[dependencies]
+clap = { version = "4.5.3", features = ["derive", "cargo", "env"] }
